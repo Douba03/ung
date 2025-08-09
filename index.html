@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ungdomsstödet - Stöd för ungdomar</title>
+    <meta name="description" content="Ungdomsstödet erbjuder professionellt stöd och hjälp för ungdomar. Vi finns här för dig när du behöver någon att prata med.">
+    <meta name="keywords" content="ungdomsstöd, mental hälsa, stöd, rådgivning, ungdomar">
+    <meta name="author" content="Ungdomsstödet">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Ungdomsstödet - Stöd för ungdomar">
+    <meta property="og:description" content="Professionellt stöd och hjälp för ungdomar">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ungdomsstodet.se">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="./styles.css" as="style">
+    <link rel="preload" href="./script.js" as="script">
+    
+    <!-- Spline Viewer -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Skip Navigation for Accessibility -->
+    <a href="#main-content" class="skip-nav">Hoppa till huvudinnehåll</a>
+    
+    <!-- Header -->
+    <header class="header" role="banner">
+        <nav class="nav-container" role="navigation" aria-label="Huvudnavigation">
+            <div class="nav-brand">
+                <a href="#" class="brand-link" aria-label="Ungdomsstödet startsida">
+                    <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                        <circle cx="12" cy="7" r="4"/>
+                    </svg>
+                    <span class="brand-text">Ungdomsstödet</span>
+                </a>
+            </div>
+            
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Öppna meny">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#hem" class="nav-link">Hem</a></li>
+                    <li><a href="#tjanster" class="nav-link">Tjänster</a></li>
+                    <li><a href="#resurser" class="nav-link">Resurser</a></li>
+                    <li><a href="#om-oss" class="nav-link">Om oss</a></li>
+                    <li><a href="#nyheter" class="nav-link">Nyheter</a></li>
+                    <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="tel:+46700000000" class="cta-button">Ring nu</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section id="hem" class="hero mobile-optimized">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title mobile-title">Vi finns här för dig</h1>
+                    <p class="hero-subtitle mobile-subtitle">Professionellt stöd och hjälp för ungdomar i alla livssituationer. Kostnadsfritt, konfidentiellt och tillgängligt när du behöver det.</p>
+                    <div class="hero-actions">
+                        <a href="tel:+46700000000" class="btn btn-primary btn-large mobile-cta">Ring nu - 070-000 00 00</a>
+                        <a href="#kontakt" class="btn btn-secondary btn-large mobile-cta">Skicka meddelande</a>
+                    </div>
+                    <div class="hero-stats mobile-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">25+</span>
+                            <span class="stat-label">År av erfarenhet</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5000+</span>
+                            <span class="stat-label">Ungdomar hjälpta</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Akut stöd</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-visual mobile-visual">
+                        <div class="support-icons">
+                            <div class="icon-circle">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                    <circle cx="12" cy="7" r="4"/>
+                                </svg>
+                            </div>
+                            <div class="icon-circle">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div class="icon-circle">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="support-text mobile-text">
+                            <h3>Professionellt stöd</h3>
+                            <p>Erfarna rådgivare, psykologer och socialarbetare som förstår ungdomars utmaningar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emergency Contact -->
+        <section class="emergency-banner">
+            <div class="container">
+                <div class="emergency-content">
+                    <svg class="emergency-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                    <div>
+                        <h3>Akut stöd</h3>
+                        <p>Ring <a href="tel:+46700000000">070-000 00 00</a> för omedelbar hjälp</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="tjanster">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Våra tjänster</h2>
+                    <p class="section-subtitle">Vi erbjuder olika former av stöd anpassat efter dina behov</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                                <polyline points="9,22 9,12 15,12 15,22"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Bosocialt stöd 21+ (ensamhushåll)</h3>
+                        <p class="service-description">Stöd för vuxna som behöver hjälp med boende och vardagsaktiviteter. Vi hjälper dig att utveckla färdigheter för ett självständigt liv.</p>
+                        <a href="#kontakt" class="service-link">Boka tid</a>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                <polyline points="3.27,6.96 12,12.01 20.73,6.96"/>
+                                <line x1="12" y1="22.08" x2="12" y2="12"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Halvvägshus <span class="status-badge">Under uppbyggnad</span></h3>
+                        <p class="service-description">Strukturerat boende med stöd för personer som behöver hjälp att återintegreras i samhället. Trygg miljö med professionell personal.</p>
+                        <p class="service-status">Denna tjänst är för närvarande under uppbyggnad. Kontakta oss för mer information om planerad start.</p>
+                        <a href="#kontakt" class="service-link">Kontakta oss</a>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                <circle cx="12" cy="7" r="4"/>
+                                <path d="M16 21v-2a4 4 0 0 0-3-3.87"/>
+                                <path d="M20 3.13a4 4 0 0 1 0 7.75"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Familjhem/jourhem</h3>
+                        <p class="service-description">Tillfälligt eller långsiktigt boende i familjehem för barn och ungdomar som behöver trygghet och omsorg utanför det egna hemmet.</p>
+                        <a href="#kontakt" class="service-link">Kontakta oss</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section class="resources section" id="resurser">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Resurser & Information</h2>
+                    <p class="section-subtitle">Användbara resurser för att hantera olika utmaningar</p>
+                </div>
+                <div class="resources-grid">
+                    <div class="resource-card">
+                        <h3>Mental hälsa</h3>
+                        <p>Information om stress, ångest och depression. Lär dig känna igen signaler och hitta hjälp.</p>
+                        <a href="#" class="resource-link">Läs mer →</a>
+                    </div>
+                    <div class="resource-card">
+                        <h3>Relationer</h3>
+                        <p>Tips för att hantera konflikter, bygga starka vänskaper och navigera kärleksrelationer.</p>
+                        <a href="#" class="resource-link">Läs mer →</a>
+                    </div>
+                    <div class="resource-card">
+                        <h3>Skola & Framtid</h3>
+                        <p>Stöd för studier, yrkesvägledning och planering för framtiden.</p>
+                        <a href="#" class="resource-link">Läs mer →</a>
+                    </div>
+                    <div class="resource-card">
+                        <h3>Kris & Trauma</h3>
+                        <p>Hjälp för att hantera svåra livssituationer och traumatiska upplevelser.</p>
+                        <a href="#" class="resource-link">Läs mer →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="om-oss">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">Om Ungdomsstödet</h2>
+                        <p>Vi är en ideell organisation som har arbetat med ungdomsstöd i över 25 år. Vårt team består av erfarna rådgivare, psykologer och socialarbetare som alla delar samma vision - att ge ungdomar de verktyg och det stöd de behöver för att må bra och utvecklas.</p>
+                        <p>Vi tror på att varje ungdom har rätt till professionell hjälp när de behöver det, oavsett ekonomisk situation eller bakgrund. Allt vårt stöd är kostnadsfritt och konfidentiellt.</p>
+                        <div class="stats">
+                            <div class="stat">
+                                <span class="stat-number">25+</span>
+                                <span class="stat-label">År av erfarenhet</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">5000+</span>
+                                <span class="stat-label">Ungdomar hjälpta</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">15</span>
+                                <span class="stat-label">Professionella rådgivare</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Vårt team" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section class="news section" id="nyheter">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Nyheter & Artiklar</h2>
+                    <p class="section-subtitle">Senaste nytt om ungdomshälsa och våra aktiviteter</p>
+                </div>
+                <div class="news-grid">
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Mental hälsa bland ungdomar" loading="lazy">
+                        </div>
+                        <div class="news-content">
+                            <time class="news-date" datetime="2024-01-15">15 januari 2024</time>
+                            <h3 class="news-title">Ny studie om mental hälsa bland ungdomar</h3>
+                            <p class="news-excerpt">Forskare visar på vikten av tidigt stöd för att förebygga psykisk ohälsa...</p>
+                            <a href="#" class="news-link">Läs artikel</a>
+                        </div>
+                    </article>
+                    
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Ny verksamhet" loading="lazy">
+                        </div>
+                        <div class="news-content">
+                            <time class="news-date" datetime="2024-01-10">10 januari 2024</time>
+                            <h3 class="news-title">Vi lanserar ny online-plattform</h3>
+                            <p class="news-excerpt">Från och med mars kan du få stöd direkt online genom vår nya chattfunktion...</p>
+                            <a href="#" class="news-link">Läs artikel</a>
+                        </div>
+                    </article>
+                    
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="https://images.pexels.com/photos/3184350/pexels-photo-3184350.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Ungdomsgrupp" loading="lazy">
+                        </div>
+                        <div class="news-content">
+                            <time class="news-date" datetime="2024-01-05">5 januari 2024</time>
+                            <h3 class="news-title">Våra gruppträffar återstartar</h3>
+                            <p class="news-excerpt">Efter juluppehållet återstartar alla våra stödgrupper med nya spännande aktiviteter...</p>
+                            <a href="#" class="news-link">Läs artikel</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="kontakt">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Kontakta oss</h2>
+                    <p class="section-subtitle">Vi finns här för dig - ta kontakt när du behöver stöd</p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Kontaktinformation</h3>
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <div>
+                                <h4>Telefon</h4>
+                                <p><a href="tel:+46700000000">070-000 00 00</a></p>
+                                <small>Vardagar 9:00-17:00</small>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <div>
+                                <h4>E-post</h4>
+                                <p><a href="mailto:info@ungdomsstodet.se">info@ungdomsstodet.se</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <div>
+                                <h4>Adress</h4>
+                                <p>Storgatan 123<br>123 45 Stockholm</p>
+                            </div>
+                        </div>
+                        
+                        <div class="emergency-info">
+                            <h4>📞 Akut hjälp</h4>
+                            <p>Ring <strong>112</strong> vid akut fara</p>
+                            <p>Självmordslinjen: <a href="tel:+4690101">90101</a></p>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="contact-form">
+                        <h3>Skicka meddelande</h3>
+                        <div class="form-group">
+                            <label for="name">Namn *</label>
+                            <input type="text" id="name" name="name" required aria-describedby="name-error">
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-post *</label>
+                            <input type="email" id="email" name="email" required aria-describedby="email-error">
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Telefonnummer</label>
+                            <input type="tel" id="phone" name="phone" aria-describedby="phone-error">
+                            <span class="error-message" id="phone-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Ämne *</label>
+                            <select id="subject" name="subject" required aria-describedby="subject-error">
+                                <option value="">Välj ämne</option>
+                                <option value="allmant">Allmän fråga</option>
+                                <option value="radgivning">Behöver rådgivning</option>
+                                <option value="gruppstod">Intresse för gruppstöd</option>
+                                <option value="akut">Akut hjälp</option>
+                                <option value="annat">Annat</option>
+                            </select>
+                            <span class="error-message" id="subject-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Meddelande *</label>
+                            <textarea id="message" name="message" rows="4" required aria-describedby="message-error" placeholder="Berätta hur vi kan hjälpa dig..."></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <span class="checkmark"></span>
+                                Jag godkänner att mina uppgifter behandlas enligt <a href="#" target="_blank">integritetspolicyn</a> *
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary form-submit">Skicka meddelande</button>
+                        
+                        <div class="form-success" id="form-success" style="display: none;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                <polyline points="22,4 12,14.01 9,11.01"/>
+                            </svg>
+                            <p>Tack för ditt meddelande! Vi återkommer inom 24 timmar.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ungdomsstödet</h3>
+                    <p>Vi erbjuder professionellt stöd för ungdomar i alla livssituationer. Kostnadsfritt och konfidentiellt.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18.77 7.46H15.5v-1.9c0-.9.6-1.1 1-1.1h2.2V2.5H15.5c-2.8 0-5.1 2.3-5.1 5.1v1.9H8.1v1.9h2.3V22h3.1V10.5h2.6l.6-3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Tjänster</h4>
+                    <ul class="footer-links">
+                        <li><a href="#tjanster">Bosocialt stöd 21+</a></li>
+                        <li><a href="#tjanster">Halvvägshus</a></li>
+                        <li><a href="#tjanster">Familjhem/jourhem</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Information</h4>
+                    <ul class="footer-links">
+                        <li><a href="#resurser">Resurser</a></li>
+                        <li><a href="#nyheter">Nyheter</a></li>
+                        <li><a href="#om-oss">Om oss</a></li>
+                        <li><a href="#">Sekretess</a></li>
+                        <li><a href="#">GDPR</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Kontakt</h4>
+                    <p>📞 <a href="tel:+46700000000">070-000 00 00</a></p>
+                    <p>✉️ <a href="mailto:info@ungdomsstodet.se">info@ungdomsstodet.se</a></p>
+                    <p>📍 Storgatan 123, Stockholm</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>&copy; 2024 Ungdomsstödet. Alla rättigheter förbehållna.</p>
+                    <div class="legal-links">
+                        <a href="#">Integritetspolicy</a>
+                        <a href="#">Användarvillkor</a>
+                        <a href="#">Cookies</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Tillbaka till toppen">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="19" x2="12" y2="5"/>
+            <polyline points="5,12 12,5 19,12"/>
+        </svg>
+    </button>
+
+    <script src="./script.js"></script>
+</body>
+</html>
